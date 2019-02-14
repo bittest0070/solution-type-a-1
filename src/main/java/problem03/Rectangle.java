@@ -6,20 +6,25 @@ public class Rectangle extends Shape implements Resizable {
 	private double height;
 
 	public Rectangle(double width, double height) {
-		System.out.println("");
+		System.out.println("2");
+		
 	}
 
 	@Override
 	public void resize(double rate) {
+		double area = (width*height)*rate;		
+		
 	}
 
 	@Override
 	public double getArea() {
-		return 0.;
+		double area = (width*height);
+		return area;
 	}
 
 	@Override
 	public double getPerimeter() {
-		return 0.;
+		double perimeter= (width+height)*2;
+		return perimeter;
 	}
 }

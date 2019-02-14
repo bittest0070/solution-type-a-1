@@ -1,5 +1,7 @@
 package problem01;
 
+import java.io.InputStream;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -24,6 +26,7 @@ public class Main {
 		int count = 0;
 		
 		/* 코드를 완성합니다. */
+		
 		System.out.println("");
 
 		return count;
